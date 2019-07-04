@@ -29,3 +29,4 @@ Responsive Web Design Projects - Build a Tribute Page
     Remember to use the Read-Search-Ask method if you get stuck.
     
 From: https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page
+My solution: https://codepen.io/marc4/full/JQZvdo
