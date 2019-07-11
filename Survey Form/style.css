@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#formSheet {
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5px;
+  width: 80%;
+}
+
+#title {
+  font-style: italic;
+}
+
+#description {
+  width: 80%;
+  margin-left: 10%;
+}
+hr {
+  width: 80%;
+}
+
+.labels {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: right;
+  vertical-align: top;
+  width: 37%;
+}
+
+.ansInputs {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 48%;
+}
+
+.inputsField {
+  border: 1px rgb(192, 192, 192) solid;
+  border-radius: 5px;
+  height: 20px;
+  margin: 10px;
+  padding: 5px;
+  width: 75%;
+}
+
+.dropDown {
+  border: 1px rgb(192, 192, 192) solid;
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 5px;
+  width: 50%;
+}
+
+.yOrN {
+  margin: 10px;
+  padding: 5px;
+}
+
+.checkButton {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+}
+
+.submit {
+  border-radius: 5px;
+  font-size: 1em;
+  height: 40px;
+  margin: 10px;
+  width: 96px;
+}
+
+.submit:hover {
+  background-color: rgb(37, 137, 199);
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  margin: 10px;
+  width: 96px;
+}
