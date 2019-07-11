@@ -1,0 +1,77 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="formSheet">
+  <h1 id="title">Buying Experience Survey</h1>
+    <p id="description">Dear Sir / Madam, thank you for visiting us. By filling out this 5-10 minute survey, you will help us obtain the very best results.</p>
+  <hr>
+
+  <form id="survey-form" method="GET" action="">
+
+    <div class="labels">
+    <label id="name-label" for="name">Name: </label>
+    </div>
+    <div class="ansInputs">
+    <input type="text" name="name" id="name" class="inputsField" placeholder="Enter your name" required>
+    </div>
+    
+    <div class="labels">
+    <label id="email-label" for="email">Email: </label>
+    </div>
+    <div class="ansInputs">
+    <input type="email" name="email" id="email" class="inputsField" required placeholder="Enter your Email">
+    </div>
+    
+    <div class="labels">
+    <label id="number-label" for="age">Age: </label>
+    </div>
+    <div class="ansInputs">
+    <input type="number" name="age" id="number" min="16" max="120" class="inputsField" placeholder="Age">
+    </div>
+    
+  
+  
+    <div class="labels">
+      <label for="currentPos">What is your gender?</label>
+    </div>
+    <div class="ansInputs">
+      <select id="dropdown" name="currentPos" class="dropDown" >
+        <option disabled value>Select an option</option>
+        <option  value="other">Other</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+    </div>
+    
+    <div class="labels">
+      <label for="hereBefore">Have you purchased at this location before?</label>
+    </div>
+    <div class="ansInputs" >
+      <div class="yOrN" name="hereBefore">
+        <input name="radioButtons" value="1"  type="radio"><label>Yes</label>
+        <input name="radioButtons" value="0"  type="radio"><label>No</label>
+      </div>
+    </div>
+    
+    <div class="labels">
+      <label for="opMult">Which of the following would most influence you when deciding where to buy? (max 2)</label>
+    </div>
+    <div class="ansInputs">
+      <ul id="" style="list-style: none;">
+        <li class="checkButton"><input name="checkButtons" value="1" type="checkbox">Order and cleaning</li>
+        <li class="checkButton"><input name="checkbox-buttons" value="2" type="checkbox">Price</li>
+        <li class="checkButton"><input name="checkbox-buttons" value="3" type="checkbox">Nearness</li>
+        <li class="checkButton"><input name="checkbox-buttons" value="4" type="checkbox">Service experience</li>
+      </ul>
+    </div>
+  
+  <div class="labels">
+    <label for="comments">What could we do to improve your buying experience?</label>
+  </div>
+  <div class="ansInputs" >
+    <textarea id="comments" class="inputsField" style="height:50px;resize:vertical;" placeholder="Enter your suggestions here..."></textarea>
+  </div>
+  
+  <button id="submit" type="submit" class="submit">Submit</button>
+  
+  </form>
+</div>
