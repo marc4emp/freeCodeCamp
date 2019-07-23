@@ -65,6 +65,10 @@ hr {
   padding: 5px;
 }
 
+.sideBySideLi {
+  display: inline;
+}
+
 .checkButton {
   position: relative;
   left: -43px;
@@ -87,4 +91,20 @@ hr {
   height: 40px;
   margin: 10px;
   width: 96px;
+}
+
+@media (max-width: 600px) {
+  #formSheet {
+    width: 90%;
+  }
+  .labels {
+    width: 90%;
+    text-align: left;
+  }
+  .ansInputs {
+    width: 80%;
+  }
+  .inputsField {
+    width: 90%;
+  }
 }
