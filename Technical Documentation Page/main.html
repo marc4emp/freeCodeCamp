@@ -1,0 +1,92 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<nav id="navbar">
+  <header>Java, Basic Concepts</header>
+  <ul>
+    <li>
+      <a class="nav-link" href="#Introduction_to_Java">Introduction to Java</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#A_Hello_World_Program">A Hello World Program</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#The_main_Method">The main Method</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#System.out.println()">System.out.println()</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Semicolons_in_Java">Semicolons in Java</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </li>
+  </ul>
+
+</nav>
+
+<main id="main-doc">
+
+  <section class="main-section" id="Introduction_to_Java">
+    <header>Introduction to Java</header>
+    <p><strong>Java</strong> is a high level, modern programming language designed in the early 1990s by Sun Microsystems, and currently owned by Oracle.</p>
+    <p>Java is <strong>Platform Independent,</strong> which means that you only need to write the program once to be able to run it on a number of different platforms! <br>Java is <strong>portable, robust,</strong> and <strong>dynamic,</strong> with the
+      ability to fit the needs of virtually any type of application.</p>
+    <p>More than <strong>3 billion</strong> devices run Java. <br>Java is used to develop apps for Google's <strong>Android</strong> OS, various Desktop Applications, such as media players, antivirus programs, Web Applications, Enterprise Applications (i.e.
+      banking), and many more!</p>
+  </section>
+
+  <section class="main-section" id="A_Hello_World_Program">
+    <header>A Hello World Program</header>
+    <p>Let's start by creating a simple program that prints “Hello World” to the screen.</p>
+    <pre><code><strong>class</strong> MyClass {
+    public static void <strong>main</strong>(String[ ] args) {
+        System.out.println("Hello World");
+    }
+}</code></pre>
+    <p>In Java, every line of code that can actually run needs to be inside a <strong>class.</strong> <br>In our example, we named the class <strong>MyClass.</strong></p>
+    <p>In Java, each application has an entry point, or a starting point, which is a method called <strong>main.</strong> <br>Along with main, the keywords <strong>public</strong> and <strong>static</strong> will also be explained later. </p>
+  </section>
+
+  <section class="main-section" id="The_main_Method">
+    <header>The main Method</header>
+    <p>To run our program, the <strong>main</strong> method must be identical to this signature:</p>
+    <code><strong>public static void main(String[ ] args)</strong></code>
+    <ul>
+      <li><strong>public:</strong> anyone can access it</li>
+      <li><strong>static:</strong> method can be run without creating an instance of the class containing the main method</li>
+      <li><strong>void:</strong> method doesn't return any value</li>
+      <li><strong>main:</strong> the name of the method</li>
+    </ul>
+    <p>For example, the following code declares a method called <strong>test,</strong> which does not return anything and has no parameters:</p>
+    <code>void test()</code>
+  </section>
+
+  <section class="main-section" id="System.out.println()">
+    <header>System.out.println()</header>
+    <p>Next is the body of the <strong>main</strong> method, enclosed in curly braces:</p>
+    <pre><code>  {
+     System.out.println("Hello World!");
+  }</code></pre>
+    <p>The <strong>println</strong> method prints a line of text to the screen. <br>The <strong>System</strong> class and its out stream are used to access the <strong>println</strong> method.</p>
+  </section>
+
+  <section class="main-section" id="Semicolons_in_Java">
+    <header>Semicolons in Java</header>
+    <p>You can pass a different text as the parameter to the println method to print it.</p>
+    <pre><code>class MyClass {
+    public static void main(String[ ] args) {
+        System.out.println("I am learning Java");
+    }
+}</code></pre>
+    <p>In Java, each code statement must end with a semicolon.</p>
+  </section>
+
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <ul>
+      <li>All the information in this page was taken from <a href="https://www.sololearn.com/" target="_blank">SoloLearn</a></li>
+    </ul>
+  </section>
+
+</main>
